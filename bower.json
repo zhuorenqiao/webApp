@@ -2,23 +2,34 @@
   "name": "webapp",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5",
     "swiper": "^3.4.2",
     "iCheck": "^1.0.2",
     "jquery": "^3.2.1",
     "summernote": "^0.8.2"
   },
   "overrides": {
-    "bootstrap-sass": {
+    "bootstrap": {
       "main": [
-        "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
+        "dist/css/bootstrap.css",
+        "fonts/*",
+        "dist/js/bootstrap.js"
       ]
     },
     "footable": {
       "main": [
         "compiled/footable.js"
+      ]
+    },
+    "summernote": {
+      "main": [
+        "dist/summernote.js",
+        "dist/summernote.css",
+        "font/*"
+      ]
+    },
+    "iCheck": {
+      "main": [
+        "icheck.min.js"
       ]
     }
   }

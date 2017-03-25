@@ -144,7 +144,7 @@ gulp.task('wiredep', () => {
 
   gulp.src('app/*.html')
     .pipe(wiredep({
-      exclude: ['swiper'],
+      exclude: ['swiper', 'summernote', 'icheck'],
       ignorePath: /^(\.\.\/)*\.\./,
     }))
     .pipe(gulp.dest('app'));

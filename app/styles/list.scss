@@ -1,7 +1,3 @@
-$icon-font-path: '../fonts/';
-// bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
 .ibox {
   margin-bottom: 20px;
   background-color: #fff;
@@ -43,7 +39,7 @@ $icon-font-path: '../fonts/';
   -o-border-image: none;
   border-image: none;
   border-style: solid solid none;
-  border-width: 1px 0px;
+  border-width: 1px 0;
 }
 table.table-mail tr td {
   padding: 12px;

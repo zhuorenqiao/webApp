@@ -4,36 +4,39 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>summernote编辑器</title>
-  <!--build:css styles/footable.css-->
-  <link rel="stylesheet" type="text/css" href="styles/footable.css">
+  <!--build:css lib/vender.css-->
+  <!--bower:css-->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!--endbower-->
   <!--endbuild-->
-  <!--build:css lib/footable/footable.css-->
-  <link rel="stylesheet" type="text/css" href="/bower_components/footable/compiled/footable.bootstrap.css">
+
+  <!--build:css lib/summernote/summernote.css-->
+  <link rel="stylesheet" type="text/css" href="/bower_components/summernote/dist/summernote.css">
+  <!--endbuild-->
+
+  <!--build:css styles/summernote.css-->
+  <link rel="stylesheet" type="text/css" href="styles/summernote.css">
   <!--endbuild-->
 
 </head>
 <body>
-<div class="box">
-  <table id="ajax-example-1" class="table">
+<div class="summernote">
 
-  </table>
 </div>
 
 <!--build:js scripts/vendor.js-->
 <!-- bower:js -->
 <script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-<script src="/bower_components/iCheck/icheck.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <!-- endbower -->
 <!--endbuild-->
 
-<!--build:js lib/footable/footable.js-->
-<script src="/bower_components/footable/compiled/footable.js"></script>
+<!--build:js lib/summernote/summernote.js-->
+<script src="/bower_components/summernote/dist/summernote.js"></script>
 <!--endbuild-->
 
-<!--build:js scripts/footable.js-->
-<script src="scripts/footable.js"></script>
+<!--build:js scripts/summernote.js-->
+<script src="scripts/summernote.js"></script>
 <!--endbuild-->
-
 </body>
 </html>
